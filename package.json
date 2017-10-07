@@ -1,0 +1,25 @@
+{
+  "name": "learn-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -x ts-node app.ts",
+    "debug": "ts-node --inspect app.ts",
+    "start": "node dist/app.js",
+    "build": "tsc "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.0.39",
+    "nodemon": "^1.12.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "koa": "^2.3.0"
+  }
+}
